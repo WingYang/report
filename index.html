@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <title>巡检报告</title>
+</head>
+<body>
+    <div class="title">
+        <h2 align="center">巡检报告</h2>
+        <span>时间：<b>2016-09-06 15:00</b></span>
+    </div>
+    <div class="report">
+        <div class="server">
+            <p><b>服务器运行状态</b></p>
+			<table>
+				<tr>
+					<td class="host">Host</td>
+                    <td class="alias">Alias</td>
+                    <td class="state">Status</td>
+                    <td class="detail">Desc</td>
+                </tr>
+                <tr class="server_brief">
+                    <td class="host">123.456.789.123</td>
+                    <td class="alias">Offermachine数据库服务器</td>
+                    <td class="state_o">OK</td>
+                    <td class="detail"><a href="javascript:void(0)">Click</a></td>
+                </tr>
+                <tr class="server_o">
+                    <td colspan="4">
+                        PING OK - Packet loss = 0%, RTA = 1.53 ms|rta=1.535000ms;100.000000;500.000000;0.000000 pl=0%;10;80;0
+                    </td>
+                </tr>
+                <tr class="server_brief">
+                    <td class="host">123.456.789.123</td>
+                    <td class="alias">数据库服务器</td>
+                    <td class="state_w">WARNING</td>
+                    <td class="detail"><a href="javascript:void(0)">Click</a></td>
+                </tr>
+                <tr class="server_w">
+                    <td colspan="4">
+                        PING OK - Packet loss = 0%, RTA = 1.53 ms|rta=1.535000ms;100.000000;500.000000;0.000000 pl=0%;10;80;0
+                    </td>
+                </tr>
+                <tr class="server_brief">
+                    <td class="host">123.456.789.123</td>
+                    <td class="alias">数据库服务器</td>
+                    <td class="state_c">CRITICAL</td>
+                    <td class="detail"><a href="javascript:void(0)">Click</a></td>
+                </tr>
+                <tr class="server_c">
+                    <td colspan="4">
+                        PING OK - Packet loss = 0%, RTA = 1.53 ms|rta=1.535000ms;100.000000;500.000000;0.000000 pl=0%;10;80;0
+                    </td>
+                </tr>
+                <tr class="server_brief">
+                    <td class="host">123.456.789.123</td>
+                    <td class="alias">数据库服务器</td>
+                    <td class="state_u">UNKNOW</td>
+                    <td class="detail"><a href="javascript:void(0)">Click</a></td>
+                </tr>
+                <tr class="server_u">
+                    <td colspan="4">
+                        PING OK - Packet loss = 0%, RTA = 1.53 ms|rta=1.535000ms;100.000000;500.000000;0.000000 pl=0%;10;80;0
+                    </td>
+                </tr>
+			</table>
+        </div>
+
+        <div class="load">
+            <p>服务器负载状态</p>
+            <table>
+                <tr>
+                    <td class="host">Host</td>
+                    <td class="alias">Alias</td>
+                    <td class="state">Status</td>
+                    <td class="detail">Desc</td>
+                </tr>
+                <tr class="server_brief">
+                    <td class="host">123.456.789.123</td>
+                    <td class="alias">Offermachine数据库服务器</td>
+                    <td class="state_o">OK</td>
+                    <td class="detail"><a href="javascript:void(0)">Click</a></td>
+                </tr>
+                <tr class="server_o">
+                    <td colspan="4">
+                        PING OK - Packet loss = 0%, RTA = 1.53 ms|rta=1.535000ms;100.000000;500.000000;0.000000 pl=0%;10;80;0
+                    </td>
+                </tr>
+                <tr class="server_brief">
+                    <td class="host">123.456.789.123</td>
+                    <td class="alias">数据库服务器</td>
+                    <td class="state_w">WARNING</td>
+                    <td class="detail"><a href="javascript:void(0)">Click</a></td>
+                </tr>
+                <tr class="server_w">
+                    <td colspan="4">
+                        PING OK - Packet loss = 0%, RTA = 1.53 ms|rta=1.535000ms;100.000000;500.000000;0.000000 pl=0%;10;80;0
+                    </td>
+                </tr>
+                <tr class="server_brief">
+                    <td class="host">123.456.789.123</td>
+                    <td class="alias">数据库服务器</td>
+                    <td class="state_c">CRITICAL</td>
+                    <td class="detail"><a href="javascript:void(0)">Click</a></td>
+                </tr>
+                <tr class="server_c">
+                    <td colspan="4">
+                        PING OK - Packet loss = 0%, RTA = 1.53 ms|rta=1.535000ms;100.000000;500.000000;0.000000 pl=0%;10;80;0
+                    </td>
+                </tr>
+                <tr class="server_brief">
+                    <td class="host">123.456.789.123</td>
+                    <td class="alias">数据库服务器</td>
+                    <td class="state_u">UNKNOW</td>
+                    <td class="detail"><a href="javascript:void(0)">Click</a></td>
+                </tr>
+                <tr class="server_u">
+                    <td colspan="4">
+                        PING OK - Packet loss = 0%, RTA = 1.53 ms|rta=1.535000ms;100.000000;500.000000;0.000000 pl=0%;10;80;0
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="bottom">
+        <p align="center"><span style="font-family:arial;">Copyright &copy;2016,09 SIETG </span></p>
+    </div>
+
+    宸℃
+</body>
+</html>

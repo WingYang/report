@@ -1,0 +1,162 @@
+/* This is css file */
+
+@media screen and (max-width: 678px){
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body{
+        background-color:rgba(240,255,255,0.5);
+    }
+
+    .title {
+        width: 98%;
+        padding: 10px 1% 10px 1%;
+    }
+
+    span {
+        font-size: 12px;
+    }
+
+    .bottom{
+        width: 100%;
+        margin: 20px 0 20px 0px;
+    }
+
+    table{
+        width: 100%;
+        border-collapse:collapse;
+        border-spacing:0;
+        border-left:1px solid #888;
+        border-top:1px solid #888;
+        background:#efefef;
+    }
+
+    td{
+        padding: 0 5px 0 5px;
+    }
+
+    .server p,.load p {
+        padding: 20px 0 5px 0;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .server_brief{
+        width: 100%;
+        height: 32px;
+    }
+
+    .host{
+        text-align: center;
+        font-size: 14px;
+        line-height: 30px;
+        overflow:hidden;
+        border: 1px black solid;
+    }
+
+    .alias{
+        text-align: center;
+        font-size: 14px;
+        line-height: 30px;
+        overflow:hidden;
+        border: 1px black solid;
+
+    }
+
+    .state{
+        text-align: center;
+        font-size: 14px;
+        line-height: 30px;
+        overflow:hidden;
+        border: 1px black solid;
+    }
+
+    .state_o{
+        text-align: center;
+        font-size: 14px;
+        line-height: 30px;
+        overflow:hidden;
+        border: 1px black solid;
+        background-color: rgba(60,179,113,0.8);
+    }
+
+    .state_w{
+        text-align: center;
+        font-size: 14px;
+        line-height: 30px;
+        overflow:hidden;
+        border: 1px black solid;
+        background-color: rgba(255, 255, 0,0.8);
+    }
+
+    .state_c{
+        text-align: center;
+        font-size: 14px;
+        line-height: 30px;
+        overflow:hidden;
+        border: 1px black solid;
+        background-color: rgba(255, 0, 0,0.8);
+    }
+
+    .state_u{
+        text-align: center;
+        font-size: 14px;
+        line-height: 30px;
+        overflow:hidden;
+        border: 1px black solid;
+        background-color: rgba(102,102,102,0.8);
+    }
+
+    .server_o{
+        width: 100%;
+        font-size: 14px;
+        background-color:rgba(60,179,113,0.8);
+        word-break:break-all;
+        border: 1px black solid;
+        display: none;
+    }
+
+    .server_w{
+        width: 100%;
+        height: 32px;
+        font-size: 14px;
+        background-color:rgba(255, 255, 0,0.8);
+        word-break:break-all;
+        border: 1px black solid;
+        display: none;
+    }
+
+    .server_c{
+        width: 100%;
+        height: 32px;
+        font-size: 14px;
+        background-color:rgba(255, 0, 0,0.8);
+        word-break:break-all;
+        border: 1px black solid;
+        display: none;
+    }
+
+    .server_u{
+        width: 100%;
+        height: 32px;
+        font-size: 14px;
+        background-color:rgba(102,102,102,0.8);
+        word-break:break-all;
+        border: 1px black solid;
+        display: none;
+    }
+
+    .detail{
+        text-align: center;
+        font-size: 14px;
+        line-height: 30px;
+        overflow:hidden;
+        border: 1px black solid;
+    }
+
+
+
+}
